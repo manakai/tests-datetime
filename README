@@ -1,0 +1,42 @@
+Date and time test data
+~~~~~~~~~~~~~~~~~~~~~~~
+
+Implementation-independent date and time test data.
+
+* Files
+
+timewithref/
+  Tests for resolution of time string relative to a time.
+
+* Test data format
+
+Different tests in this repository are written in different formats.
+
+Many tests adopt the HTCT test case description format, which is a
+generaliztion of the HTML parser's tree construction stage test
+suite's format, applicable to other protocols as well.  See
+<https://wiki.suikawiki.org/n/HTCT> for more information.
+
+* Other tests in different repositories
+
+<https://github.com/manakai/data-locale/tree/master/data/calendar>
+  map-*.txt
+  kyuureki-*.txt
+    Calendar conversions.
+
+<https://github.com/manakai/data-locale/tree/master/data/calendar/serialized>
+  Date and time serializations for human readers.
+
+<https://github.com/wakaba/tests-web/tree/master/html/time>
+  HTML |time| element tests.
+
+<https://github.com/manakai/data-chars/blob/master/data/tests/cjk-numbers-tests.txt>
+  CJK number parsing tests.
+
+* Author
+
+Wakaba <wakaba@suikawiki.org>.
+
+* License
+
+Public Domain.
