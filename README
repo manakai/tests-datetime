@@ -7,6 +7,7 @@ Implementation-independent date and time test data.
 
 timewithref/
   Tests for resolution of time string relative to a time.
+  Spec: <https://manakai.github.io/spec-datetime/#resolve-a-day-of-time>
 
 * Test data format
 
